@@ -132,6 +132,14 @@ nav,
   transition: all 600ms 800ms;
 }
 
+.header {
+  display: flex;
+}
+
+.personal__img {
+  display: block;
+}
+
 .modal__open nav,
 .modal__open .scroll,
 .modal__open .header {
@@ -361,6 +369,7 @@ MODAL
 .modal__languages {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .modal__language {
@@ -518,6 +527,10 @@ PROJECTS
   margin: 0 32px;
 }
 
+.project {
+  padding-top: 56px;
+}
+
 .project__wrapper:hover .project__description {
   opacity: 1;
   transform: translateY(-50%);
@@ -652,9 +665,18 @@ SHAPES
 }
 /* SMALL PHONES, TABLETS, LARGE SMART PHONES*/
 
-@media (max-width: 768px) {
+@media (max-width: 948px) {
   .title {
     font-size: 80px;
+  }
+  .header__para {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 64px;
   }
   .header__para {
     font-size: 20px;
@@ -680,6 +702,9 @@ SHAPES
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .me {
+    display: none;
   }
 }
 /*SMALL PHONES*/
