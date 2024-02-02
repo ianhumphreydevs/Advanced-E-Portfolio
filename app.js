@@ -32,10 +32,10 @@ function contact(event) {
 
   emailjs
     .sendForm(
-      "service_n7g8s7i",
-      "template_atj9ijb",
+      "service_krseerm",
+      "template_mmfq1tp",
       event.target,
-      "NZm2j59T5WgXQPie6"
+      "68ywnN50d_P8eJ_Pt"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -44,7 +44,7 @@ function contact(event) {
     .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly at ianhumphreydevs@gmail.com"
+        "The email service is temporarily unavailable. Please contact me directly at ian@ianhumphreydevs.com"
       );
     });
 }
