@@ -528,7 +528,7 @@ PROJECTS
 }
 
 .project {
-  padding-top: 56px;
+  padding-top: 34px;
 }
 
 .project__wrapper:hover .project__description {
@@ -713,6 +713,9 @@ SHAPES
     .title {
         font-size: 52px;
     }
+    .section__title {
+        font-size: 36px;
+    }
     .header__para {
         font-size: 18px;
     }
@@ -737,4 +740,19 @@ SHAPES
     .modal__half {
         padding: 40px;
     }
+    .shape {
+        display: none;
+    }
+    .project__description--title {
+      font-size: 24px;
+    }
+    .project__description--sub-title {
+      font-size: 12px;
+    }
+
+    .project__description--link {
+      font-size: 16px;
+      margin: auto;
+      padding-left: 4px;
+    } 
 }
