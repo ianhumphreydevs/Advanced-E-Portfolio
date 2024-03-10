@@ -511,7 +511,7 @@ PROJECTS
 .section__title {
   text-align: center;
   font-size: 48px;
-  margin-bottom: 60px;
+  margin-bottom: 8px;
 }
 
 .project__img {
@@ -528,7 +528,7 @@ PROJECTS
 }
 
 .project {
-  padding-top: 34px;
+  padding-top: 40px;
 }
 
 .project__wrapper:hover .project__description {
